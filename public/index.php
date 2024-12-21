@@ -1,7 +1,7 @@
 <?php
 require('DirectoryScanner.php');
 
-$exclude = ['localhost', 'archived', 'books', 'packages', 'pk', 'headless-frontend'];
+$exclude = ['localhost'];
 $scanner = new DirectoryScanner('../../', $exclude);
 $projects = $scanner->getProjects();
 
