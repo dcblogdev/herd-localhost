@@ -26,6 +26,6 @@ Clone or Download the Project into the root of the Herd folder:
 git clone https://github.com/dcblogdev/herd-localhost.git localhost
 ```
 
-the access http://localhost will show all projects found in the herd folder.
+Then access http://localhost will show all projects found in the herd folder.
 
 Exclude any folders from being scanned, open `index.php` and add folder to the `$excludes = []` array.
