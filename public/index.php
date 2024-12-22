@@ -28,7 +28,7 @@ $projects = $scanner->getProjects();
                 <?php foreach ($projects as $project):
                     $subProjects = $scanner->getSubProjects($project);
                 ?>
-                <div class="w-80 flex-shrink-0 shadow-lg rounded-lg p-6 bg-white dark:bg-gray-700 hover:shadow-xl transition-shadow">
+                <div class="w-80 flex-shrink-0 shadow-lg rounded-lg p-6 bg-gray-200 dark:bg-gray-700 hover:shadow-xl transition-shadow">
                     <h2 class="text-2xl font-semibold text-indigo-700 dark:text-gray-200 mb-4">
                         <?php echo strtoupper(str_replace('-', ' ',$project)); ?>
                     </h2>
